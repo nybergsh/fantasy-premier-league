@@ -1,0 +1,159 @@
+{
+  "_source": "https://fantasy.premierleague.com/api/bootstrap-static/",
+  "_fetched_utc": "2026-08-13",
+  "_extract": "game_config",
+  "game_config": {
+    "settings": {
+      "entry_per_event": false,
+      "timezone": "UTC",
+      "static_content_url": "https://fantasy.premierleague.com/gcs/plfpl-prod-static-content/plfpl-production/2026_27/"
+    },
+    "rules": {
+      "league_join_private_max": 30,
+      "league_join_public_max": 5,
+      "league_max_size_public_classic": 20,
+      "league_max_size_public_h2h": 16,
+      "league_max_size_private_h2h": 16,
+      "league_max_ko_rounds_private_h2h": 3,
+      "league_prefix_public": "League",
+      "league_points_h2h_win": 3,
+      "league_points_h2h_lose": 0,
+      "league_points_h2h_draw": 1,
+      "league_ko_first_instead_of_random": false,
+      "cup_start_event_id": null,
+      "cup_stop_event_id": null,
+      "cup_qualifying_method": null,
+      "cup_type": null,
+      "featured_entries": [],
+      "element_sell_at_purchase_price": false,
+      "percentile_ranks": [
+        1,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95
+      ],
+      "underdog_differential": 5,
+      "squad_squadplay": 11,
+      "squad_squadsize": 15,
+      "squad_special_min": null,
+      "squad_special_max": null,
+      "squad_team_limit": 3,
+      "squad_total_spend": 1000,
+      "ui_currency_multiplier": 10,
+      "ui_use_special_shirts": false,
+      "ui_special_shirt_exclusions": [],
+      "stats_form_days": 30,
+      "sys_vice_captain_enabled": true,
+      "transfers_cap": 20,
+      "transfers_sell_on_fee": 0.5,
+      "max_extra_free_transfers": 4,
+      "league_h2h_tiebreak_stats": [
+        "+goals_scored",
+        "-goals_conceded"
+      ]
+    },
+    "scoring": {
+      "long_play": 2,
+      "short_play": 1,
+      "goals_conceded": {
+        "DEF": -1,
+        "FWD": 0,
+        "GKP": -1,
+        "MID": 0
+      },
+      "saves": 1,
+      "goals_scored": {
+        "DEF": 6,
+        "FWD": 4,
+        "GKP": 10,
+        "MID": 5
+      },
+      "assists": 3,
+      "clean_sheets": {
+        "DEF": 4,
+        "FWD": 0,
+        "GKP": 4,
+        "MID": 1
+      },
+      "penalties_saved": 5,
+      "penalties_missed": -2,
+      "yellow_cards": -1,
+      "red_cards": -3,
+      "own_goals": -2,
+      "bonus": 1,
+      "bps": 0,
+      "influence": 0,
+      "creativity": 0,
+      "threat": 0,
+      "ict_index": 0,
+      "special_multiplier": 1,
+      "tackles": 0,
+      "clearances_blocks_interceptions": 0,
+      "recoveries": 0,
+      "defensive_contribution": {
+        "DEF": 2,
+        "FWD": 2,
+        "GKP": 0,
+        "MID": 2
+      },
+      "starts": 0,
+      "mng_goals_scored": {
+        "DEF": 0,
+        "FWD": 0,
+        "GKP": 0,
+        "MID": 0
+      },
+      "mng_clean_sheets": {
+        "DEF": 0,
+        "FWD": 0,
+        "GKP": 0,
+        "MID": 0
+      },
+      "mng_win": {
+        "DEF": 0,
+        "FWD": 0,
+        "GKP": 0,
+        "MID": 0
+      },
+      "mng_draw": {
+        "DEF": 0,
+        "FWD": 0,
+        "GKP": 0,
+        "MID": 0
+      },
+      "mng_loss": 0,
+      "mng_underdog_win": {
+        "DEF": 0,
+        "FWD": 0,
+        "GKP": 0,
+        "MID": 0
+      },
+      "mng_underdog_draw": {
+        "DEF": 0,
+        "FWD": 0,
+        "GKP": 0,
+        "MID": 0
+      },
+      "expected_assists": 0,
+      "expected_goal_involvements": 0,
+      "expected_goals_conceded": 0,
+      "expected_goals": 0
+    }
+  }
+}
