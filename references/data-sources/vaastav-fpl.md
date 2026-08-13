@@ -26,7 +26,7 @@ Shallow clone (`--depth 1`) — only the current tip is needed, not full history
 
 ## Reconnaissance notebook
 
-`notebooks/xp-model/00_source_recon.ipynb` works through the questions below against the
+`notebooks/xp-model/0.1-source-recon.ipynb` works through the questions below against the
 actual files, not from memory. Open it in Jupyter or VS Code's notebook UI — kernel `fpl`,
 registered with `uv run python -m ipykernel install --user --name fpl` after `uv sync` — and
 run all cells. GitHub renders the saved outputs without needing to execute anything locally.
@@ -35,7 +35,7 @@ To re-execute and refresh the saved outputs:
 
 ```bash
 PYTHONIOENCODING=utf-8 uv run jupyter nbconvert --to notebook --execute --inplace \
-  --ExecutePreprocessor.kernel_name=fpl notebooks/xp-model/00_source_recon.ipynb
+  --ExecutePreprocessor.kernel_name=fpl notebooks/xp-model/0.1-source-recon.ipynb
 ```
 
 (`PYTHONIOENCODING=utf-8` avoids a Windows console `cp1252` crash when printing accented
