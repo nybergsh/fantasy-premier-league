@@ -57,7 +57,10 @@ _PRE_DEFCON = SeasonRules(
     long_play_minutes=60,
     appearance_short=1,
     appearance_long=2,
-    goals={"GK": 10, "DEF": 6, "MID": 5, "FWD": 4},
+    # A goalkeeper goal was worth 6, not the 10 the current API reports. Alisson's header in
+    # 2020-21 GW36 is the only goalkeeper goal in ten seasons and it scored 6; the season the
+    # value changed is not recoverable from this data. See references/known-issues.md.
+    goals={"GK": 6, "DEF": 6, "MID": 5, "FWD": 4},
     assists=3,
     clean_sheets={"GK": 4, "DEF": 4, "MID": 1, "FWD": 0},
     goals_conceded={"GK": -1, "DEF": -1, "MID": 0, "FWD": 0},
@@ -79,6 +82,8 @@ _PRE_DEFCON = SeasonRules(
 # actions scored nothing.
 _DEFCON_THRESHOLD = {"DEF": 10, "MID": 12, "FWD": 12}
 
+_GOALS_WITH_TEN_POINT_KEEPER = {"GK": 10, "DEF": 6, "MID": 5, "FWD": 4}
+
 SCORING_RULES = {
     season: _PRE_DEFCON
     for season in (
@@ -95,12 +100,14 @@ SCORING_RULES = {
 } | {
     "2025-26": replace(
         _PRE_DEFCON,
+        goals=_GOALS_WITH_TEN_POINT_KEEPER,
         defcon_points=2,
         defcon_threshold=_DEFCON_THRESHOLD,
         bps_version="2025-26",
     ),
     "2026-27": replace(
         _PRE_DEFCON,
+        goals=_GOALS_WITH_TEN_POINT_KEEPER,
         defcon_points=2,
         defcon_threshold=_DEFCON_THRESHOLD,
         bps_version="2026-27",
