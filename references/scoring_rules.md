@@ -22,7 +22,7 @@ recorded `total_points`; until that runs, the pre-2026-27 columns are unproved.
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Playing 1 to 59 minutes | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 | Playing 60 minutes or more | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 | 2 |
-| Goal scored (GK) | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 |
+| Goal scored (GK) | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 10 | 10 |
 | Goal scored (DEF) | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 |
 | Goal scored (MID) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 | 5 |
 | Goal scored (FWD) | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 |
