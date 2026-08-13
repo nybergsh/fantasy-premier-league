@@ -16,13 +16,17 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 dependencies = [
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
     "loguru",
     "pip",
+    "polars>=1.43.2",
     "pytest",
     "python-dotenv",
     "ruff",
     "tqdm",
     "typer",
+    "tzdata>=2026.3",
 ]
 requires-python = "~=3.13.0"
 
