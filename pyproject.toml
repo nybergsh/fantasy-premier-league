@@ -19,6 +19,8 @@ dependencies = [
     "ipykernel>=7.3.0",
     "jupyter>=1.1.1",
     "loguru",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
     "pip",
     "polars>=1.43.2",
     "pytest",
